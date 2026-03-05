@@ -1,4 +1,4 @@
-# Sentinel
+# Sentinel Agentic Compiler
 
 Sentinel is a local-first coding assistant that uses semantic context distillation (RAG) and symbolic logic verification (Z3) to ensure code correctness.
 
