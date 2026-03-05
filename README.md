@@ -24,3 +24,7 @@ The tech industry has a blind spot. Everyone is sending entire codebases to gian
 1.  Install dependencies: `pip install -r requirements.txt`
 2.  Run Ollama locally.
 3.  Execute the main orchestrator: `python src/main.py`
+
+## OpenClaw Integration
+
+Sentinel includes a built-in OpenClaw skill (`skills/sentinel/SKILL.md`). If you use OpenClaw within this project directory, the agent will automatically recognize Sentinel and can mathematically verify code correctness or fix bugs using the orchestrator when requested.
