@@ -32,5 +32,5 @@ Sentinel includes a built-in OpenClaw skill (`skills/sentinel/SKILL.md`). If you
 To explicitly install the skill globally for OpenClaw so that it is available from any directory, you can copy and paste the following command to your OpenClaw agent:
 
 ```
-Please install the OpenClaw skill from https://github.com/vaultkeeperirl-design/Agentic-Compiler. It is located at skills/sentinel in the repository. Please download it and copy it to my global ~/.openclaw/skills/ directory.
+Please clone the repository https://github.com/vaultkeeperirl-design/Agentic-Compiler, install its dependencies using `pip install -r requirements.txt`, and then install the OpenClaw skill located at `skills/sentinel` by copying it to my global `~/.openclaw/skills/` directory.
 ```
