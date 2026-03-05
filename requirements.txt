@@ -1,0 +1,5 @@
+ollama
+sentence-transformers
+z3-solver
+chromadb
+pydantic
