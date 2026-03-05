@@ -28,3 +28,9 @@ The tech industry has a blind spot. Everyone is sending entire codebases to gian
 ## OpenClaw Integration
 
 Sentinel includes a built-in OpenClaw skill (`skills/sentinel/SKILL.md`). If you use OpenClaw within this project directory, the agent will automatically recognize Sentinel and can mathematically verify code correctness or fix bugs using the orchestrator when requested.
+
+To explicitly install the skill globally for OpenClaw so that it is available from any directory, you can copy and paste the following command to your OpenClaw agent:
+
+```
+Please install the OpenClaw skill located at ./skills/sentinel/SKILL.md by copying it to my global ~/.openclaw/skills/ directory.
+```
